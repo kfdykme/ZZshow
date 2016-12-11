@@ -32,7 +32,7 @@ Page({
   },
   to_Kakami_Hitoshi:function(){
     wx.navigateTo({
-      url: '../../pages/kakami_hitoshi/kakami_hitoshi',
+      url: '../../pages/kakamihitoshi/kakamihitoshi',
       success: function(res){
         // success
       },

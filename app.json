@@ -2,8 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/mms/mms",
-    "pages/kakami_hitoshi/kakami_hitoshi",
-  "pages/course/course",
+    "pages/kakamihitoshi/kakamihitoshi",
+    "pages/course/course",
     "pages/show/show",
     "pages/logs/logs"
   ],

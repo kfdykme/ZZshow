@@ -1,0 +1,7 @@
+
+<!--pages/kakamihitoshi/kakamihitoshi.wxml-->
+<view class="container">
+  <view wx:for="{{image_array}}">
+    <image src="{{item.src}}"></image><text style="color:#aaa">{{index}}</text>
+  </view>
+</view>

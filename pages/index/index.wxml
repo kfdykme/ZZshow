@@ -12,5 +12,4 @@
       <button class="to_main_part_button" bindtap="to_show" type="default" size="default" plain="true">{{toShow}}</button>
     </view>
   </view>
-
 </view>
