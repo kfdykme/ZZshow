@@ -8,10 +8,11 @@
     "pages/logs/logs"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "rgb(216,34,13)",
     "navigationBarTitleText": "ZZshow",
     "navigationBarTextStyle": "white"
+
   },
   "tabBar": {
     "color": "rgb(140,85,66)",
@@ -27,6 +28,10 @@
       {
         "text": "__Course__",
         "pagePath": "pages/course/course"
+      },
+      {
+        "text": "___about___",
+        "pagePath" : "pages/index/index"
       }
     ]
   }

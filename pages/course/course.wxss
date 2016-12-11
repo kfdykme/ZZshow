@@ -1,2 +1,10 @@
 /* pages/course/course.wxss */
 
+.course_image{
+  position: relative;
+  z-index: 1;
+  padding:  2rpx 2rpx 2rpx;
+  margin-top: 10%;
+ box-shadow: 5rpx 5rpx 5rpx 5rpx #a0a0a0;
+
+}

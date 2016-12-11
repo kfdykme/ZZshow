@@ -1,11 +1,9 @@
 
 <!--pages/show/show.wxml-->
-<view class="show_page" wx:for="{{image_array}}">
-  <view clase="wrap">
-    <image class="{{show_image_class}}" src="{{item.image_src}}" mode="aspectFit" id="show_image_{{index}}"/>  
-  <!--  <view> 
-      <text class="show_image_caption">{{image_caption}}</text>
-    </view>-->
-  </view>
 
-</view>
+  <view class="show_page" wx:for="{{image_array}}">
+    <view clase="wrap">
+       <!-- <image wx:if="{{item.bis > 0}}" class="{{show_image_center_class}}" src="{{item.image_src}}"   mode="aspectFit"  bindtap="choose_as_center" id="show_image_{{index}}" />
+  -->
+        <image style="margin-top:{{item.top}}rpx; margin-left:{{item.left}}rpx" class="{{item.show_image_class}} " src="{{item.image_src}}"   mode="aspectFit" id="show_image_{{index}}" bindtap="choose_as_center" />
+  </view>

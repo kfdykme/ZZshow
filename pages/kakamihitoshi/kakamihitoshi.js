@@ -244,21 +244,21 @@ Page({
     }, {
       src: "../../image/course/kakamihitoshi/110.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/121.jpg",
+      src: "../../image/course/kakamihitoshi/121.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/122.jpg",
+      src: "../../image/course/kakamihitoshi/122.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/123.jpg",
+      src: "../../image/course/kakamihitoshi/123.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/124.jpg",
+      src: "../../image/course/kakamihitoshi/124.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/125.jpg",
+      src: "../../image/course/kakamihitoshi/125.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/126.jpg",
+      src: "../../image/course/kakamihitoshi/126.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/127.jpg",
+      src: "../../image/course/kakamihitoshi/127.jpg",
     }, {
-      src: "../../image/course/Kakami_Hitoshi/128.jpg",
+      src: "../../image/course/kakamihitoshi/128.jpg",
     }],
   },
   onLoad:function(options){

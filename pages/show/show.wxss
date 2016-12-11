@@ -5,13 +5,21 @@
 .show_image{
   position: absolute;
   z-index: 1;
-  width: 262rpx;
-  height: 200rpx;
-  background-color: #0f0f0f;
-  padding:  2rpx 2rpx 2rpx;
-  margin: 2rpx 2rpx 2rpx 2rpx;
+  width: 33%;
+  height: 100px;
+ padding:  2rpx 2rpx 2rpx;
+ box-shadow: 5rpx 5rpx 5rpx 5rpx #a0a0a0;
+ 
 }
 .show_image_caption{
   color: #aaa;
   padding-left: 120rpx;
+}
+.show_image_center{
+  position: absolute;
+  
+  z-index: 999;
+  margin-left: 5%;
+   margin-top: 5%;
+
 }

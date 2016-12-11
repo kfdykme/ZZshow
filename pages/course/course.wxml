@@ -2,9 +2,9 @@
 <!--pages/course/course.wxml-->
 <view class="container">
   <view>
-    <image src="../../image/course/mengmengshi/001.jpg" bindtap="to_mengmengshi"></image>
+    <image class="course_image" src="../../image/course/mengmengshi/001.jpg" bindtap="to_mengmengshi"></image>
   </view>
   <view>
-    <image src="../../image/course/kakamihitoshi/001.jpg" bindtap="to_Kakami_Hitoshi"></image>
+    <image class="course_image" src="../../image/course/kakamihitoshi/001.jpg" bindtap="to_Kakami_Hitoshi"></image>
   </view>
 </view>
