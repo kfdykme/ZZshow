@@ -1,0 +1,8 @@
+
+<!--pages/course/course.wxml-->
+<scroll-view>
+  <view>
+    <image src="../../image/course/mengmengshi/001.jpg" bindtap="to_mengmengshi"></image>
+    <image src="../../image/course/Kakami_Hitoshi/001.jpg" bindtap="to_Kakami_Hitoshi"></image>
+  </view>
+</scroll-view>

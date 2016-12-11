@@ -1,0 +1,7 @@
+<!--pages/mms/mms.wxml-->
+<view class="container">
+  <view wx:for="{{image_array}}">
+    <image src="{{item.image_src}}"></image>
+    
+  </view>
+</view>

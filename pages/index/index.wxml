@@ -1,0 +1,16 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="userinfo-nickname">{{motto}}{{userInfo.nickName}} to ZZshow</text>
+  </view>
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+   </view>
+  <view>
+    <view>
+      <button class="to_main_part_button" bindtap="to_show" type="default" size="default" plain="true">{{toShow}}</button>
+    </view>
+  </view>
+
+</view>

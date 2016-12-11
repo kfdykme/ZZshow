@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mms/mms",
+    "pages/kakami_hitoshi/kakami_hitoshi",
+  "pages/course/course",
+    "pages/show/show",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "rgb(216,34,13)",
+    "navigationBarTitleText": "ZZshow",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "rgb(140,85,66)",
+    "selectedColor": "#fdfdfd",
+    "backgroundColor": "rgb(64,83,97)",
+    "borderStyle": "black",
+    "height": "700px",
+    "list": [
+      {
+        "text": "___Show___",
+        "pagePath": "pages/show/show"
+      },
+      {
+        "text": "__Course__",
+        "pagePath": "pages/course/course"
+      }
+    ]
+  }
+}
