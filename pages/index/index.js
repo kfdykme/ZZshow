@@ -5,12 +5,19 @@ Page({
   data: {
     userInfo: {},
     motto: 'Welcome ',
-   toShow: 'Enter',
+   toShow: 'About me',
+   modalHidden2:true,
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
+   this.setData({
+     modalHidden2 :false
+   })
+  },
+
+  modalChange2: function(e) {
+    this.setData({
+      modalHidden2: true
     })
   },
   onLoad: function () {
@@ -23,34 +30,6 @@ Page({
         userInfo:userInfo
       })
     })
-  },
- to_course: function () {
-    wx.navigateTo({
-      url: '../course/course',
-      success: function (res) {
-        // success
-      },
-      fail: function () {
-        // fail
-      },
-      complete: function () {
-        // complete
-      }
-    })
-  },
-
-  to_show: function () {
-    wx.navigateTo({
-      url: '../show/show',
-      success: function (res) {
-        // success
-      },
-      fail: function () {
-        // fail
-      },
-      complete: function () {
-        // complete
-      }
-    })
   }
+
 })

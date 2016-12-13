@@ -23,5 +23,9 @@
 
 .to_main_part_button{
   width: 200px;
-  margin-top: 25px;
+  height: 70px;
+  margin-top: 95px;
+  font-size: 30px;
+  padding-bottom: 80px;
+  color: #aaa; 
 }
